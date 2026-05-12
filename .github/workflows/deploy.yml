@@ -141,11 +141,11 @@ jobs:
         run: |
           cd /home/vm/deploy_pfa
 
-          docker-compose down
+          docker compose down
 
-          docker-compose pull
+          docker compose pull
 
-          docker-compose up -d --remove-orphans
+          docker compose up -d --remove-orphans
 
       # =========================
       # Cleanup unused images
