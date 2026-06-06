@@ -13,8 +13,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME_BACKEND: ghcr.io/feres10/esante-backend
-  IMAGE_NAME_FRONTEND: ghcr.io/feres10/esante-frontend
+  IMAGE_NAME_BACKEND: ghcr.io/haythamayadi/esante-backend
+  IMAGE_NAME_FRONTEND: ghcr.io/haythamayadi/esante-frontend
 
 jobs:
 
